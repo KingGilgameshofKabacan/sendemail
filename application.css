@@ -1,0 +1,61 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #fff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+.logo {
+  text-align: center;
+  color: #0047ab; /* Dark blue color */
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Dark gray color */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #0047ab; /* Dark blue color */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #002366; /* Darker blue color on hover */
+}
+
+button:active {
+  transform: translateY(1px);
+}
